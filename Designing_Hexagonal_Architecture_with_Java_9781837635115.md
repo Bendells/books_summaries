@@ -10,6 +10,8 @@
 
 - There is the Domain hexagon, the Application Hexagon and the Framework Hexagon. Each is englobed by the next.
 
-Domain hexagon = contains the entity and value type. entity = representation of a unit; value type = values that can be taken by the entity
+Domain hexagon = contains the entity and value type. entity = representation of a unit; value type = values that can be taken by the entity.
+
 Application hexagon = Contains the use cases for the entity, the input for the use case (input port) and its output (output port).
+
 Framework hexagon = How the software is interacted with. It has two components: the drivee and the driven. the drivee are the input gateway to the solution (API, REST, Client, etc) and the driven is what is changed by the solution (DB, Documents, etc)
