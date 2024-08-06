@@ -2,7 +2,7 @@
 
 - You want to decouple the complexity of your software to its technology. Hexagonal architecture enables you to abstract the technolgyout.
 - Is suitable for distributed paradigm more than for a monolithic application. 
-- As computing resources have become more affordable, microservices and Service Oriented Architecture became more prominent. Hexagonal architecture suits it best.
+- As computing resources have become more affordable, microservices and Service Oriented Architecture became more prominent. Hexagonal architecture suits it best.d
 
 #### Quick overview of Hexagonal architecture ####
 
@@ -15,3 +15,6 @@ Domain hexagon = contains the entity and value type. entity = representation of 
 Application hexagon = Contains the use cases for the entity, the input for the use case (input port) and its output (output port).
 
 Framework hexagon = How the software is interacted with. It has two components: the drivee and the driven. the drivee are the input gateway to the solution (API, REST, Client, etc) and the driven is what is changed by the solution (DB, Documents, etc)
+
+### Chapter 2: Wrapping business rules inside Domain hexagon ###
+
